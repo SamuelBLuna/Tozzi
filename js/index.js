@@ -64,7 +64,7 @@ function quintaFeira() {
     } else if(horario > '8:45' && horario < '9:30') {
             cronograma.salas.push(salas[7], salas[2], salas[10], salas[17], salas[6], salas[3], salas[15], salas[16], salas[4], salas[8], salas[14], salas[5], salas[9])        
     } else if(horario < '10:31' || horario > '9:45') {
-            cronograma.salas.push(salas[7], salas[2], salas[10], salas[17], salas[6], salas[3], salas[15], salas[16], salas[4], salas[1], salas[14], salas[25], salas[9])        
+            cronograma.salas.push(salas[7], salas[2], salas[10], salas[17], salas[6], salas[3], salas[15], salas[16], salas[4], salas[1], salas[14], salas[5], salas[9])        
     } else if(horario > '10:30' && horario < '11:15') {
             cronograma.salas.push(salas[13], salas[7], salas[5], salas[11], salas[4], salas[0], salas[6], salas[12], salas[3], salas[10], salas[17], salas[14], salas[16])        
     } else if(horario > '11:15' && horario < '12:00') {
