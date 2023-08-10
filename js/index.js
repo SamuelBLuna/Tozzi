@@ -1,12 +1,11 @@
 let container = document.querySelector('.container')
 let dataHora = new Date
 
-const dia = 4 //dataHora.getDay();
-console.log(dia)
+const dia = dataHora.getDay();
 
-const hora = 11 //dataHora.getHours()
+const hora = dataHora.getHours()
 
-const minutos = 10 //dataHora.getMinutes()
+const minutos = dataHora.getMinutes()
 
 let newMinutos;
 if(minutos < 10) {
@@ -16,7 +15,6 @@ if(minutos < 10) {
 }
 
 const horario = hora + ':'+ newMinutos
-console.log(horario)
 
 
 const turmas = [
@@ -79,8 +77,6 @@ function quintaFeira() {
 
     screan()
 }
-
-console.log(cronograma.salas)
 
 function screan() {
     if(cronograma.salas.length != 0){
